@@ -7,7 +7,7 @@ export default function Layout({ children }: LayoutProps) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>re:fresh</title>
+        <title>TIL:TodayILearned</title>
         <meta name="description" content="A tool to help refresh your memory" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

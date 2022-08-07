@@ -88,6 +88,18 @@
   margin-left: 0.5rem;
 }
 
+.brandToday {
+  color: #D82E3F
+}
+
+.brandI {
+  color: #28CC2D
+}
+
+.brandLearned {
+  color: #3581D8
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

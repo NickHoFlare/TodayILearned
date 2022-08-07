@@ -6,11 +6,15 @@ const Home: NextPage = () => {
   return (
     <main className={styles.main}>
       <h1 className={styles.title}>
-        TodayILearned
+        <span className={styles.brandToday}>Today</span>
+        <span className={styles.brandI}>I</span>
+        <span className={styles.brandLearned}>Learned</span>
       </h1>
 
       <p className={styles.description}>
-        Get started by editing{' '} asd
+        <span className={styles.brandToday}>Yesterday</span>
+        <span className={styles.brandI}>I</span>
+        <span className={styles.brandLearned}>Learned</span>
         <code className={styles.code}>pages/index.tsx</code>
       </p>
 
@@ -18,7 +22,7 @@ const Home: NextPage = () => {
         <a href="https://nextjs.org/docs" className={styles.card}>
           <h2>Documentation &rarr;</h2>
           <p>Find in-depth information about Next.js features and API.</p>
-        </a>frt5 
+        </a>
 
         <a href="https://nextjs.org/learn" className={styles.card}>
           <h2>Learn &rarr;</h2>
