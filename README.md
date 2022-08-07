@@ -1,8 +1,14 @@
 # TodayILearned
 A tool to help people (me) revise my knowledge on various subjects
 
-# Development Setup
-## Development Container
+## Project Management
+For some details on the planned roadmap for this project, see [Roadmap](https://github.com/terran324/TodayILearned/blob/main/projectPlanning/README.md)
+
+## Things I Learned
+Here are some [things I learned(TODO)]() in the process of building this web app.
+
+## Development Setup
+### Development Container
 This project uses VS Code [Development Containers](https://code.visualstudio.com/docs/remote/containers).
 To get started, make sure you have Docker installed, and install the [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) VS Code extension.
 

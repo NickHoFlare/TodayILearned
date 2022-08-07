@@ -44,11 +44,12 @@
   - [ ] header and footer thin, unintrusive
 
 ## API
+- [x] route stubs
 - [ ] `/api/posts?q=<searchTerms>`
   - [ ] GET: Returns list of knowledge items that match search terms
+  - [ ] POST: Adds title, short description, long description, metadata, external learning data to DB
 - [ ] `/api/posts/[id]`
   - [ ] GET: Returns title, short description, long description, metadata, external learning data
-  - [ ] POST: Adds title, short description, long description, metadata, external learning data to DB
   - [ ] PUT: Edits title, short description, long description, metadata, external learning data in DB
   - [ ] DELETE: Deletes title, short description, long description, metadata, external learning data from DB
 - [ ] `/api/posts/latest`
